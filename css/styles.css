@@ -34,14 +34,21 @@ h3 {
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 20%;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 20%;
     bottom: 300px;
+}
+
+.service-row {
+    text-align: left;
+    line-height: 2;
+    width: 50%;
+    margin: 100px auto 100px;
 }
 
 #tree {
@@ -51,4 +58,15 @@ h3 {
 
 #profile {
     height: 250px;
+}
+
+.diet-img {
+    height: 200px;
+    float: left;
+    margin-right: 30px;
+}
+.nutritionist-img {
+    height: 200px;
+    float: right;
+    margin-left: 30px;
 }
